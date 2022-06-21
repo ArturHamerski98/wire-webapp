@@ -18,7 +18,7 @@
  */
 
 import {ClientEntity} from 'src/script/client/ClientEntity';
-
+console.log('Hello World');
 describe('ClientEntity', () => {
   describe('dismantleUserClientId', () => {
     it('can get the user ID and client ID from a session ID', () => {
